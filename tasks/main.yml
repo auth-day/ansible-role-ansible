@@ -1,4 +1,7 @@
 ---
 
+## Create task to add repo
+### sudo apt-add-repository ppa:ansible/ansible
+
 - name: install ansible latest
   yum: name=ansible state=latest
